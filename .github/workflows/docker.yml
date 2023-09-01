@@ -31,7 +31,7 @@ jobs:
         with:
           context: .
           platforms: linux/amd64
-          file: docker/Dockerfile
+          file: ./docker/Dockerfile
           push: true
           tags: ghcr.io/korewachino/sillytavern-extras:latest
           build-args: |
