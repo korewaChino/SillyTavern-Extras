@@ -1,8 +1,8 @@
 version: "3"
 services:
   sillytavern-extras:
-    runtime: nvidia
-    image: cohee1207/sillytavern-extras
+    #runtime: nvidia
+    image: korewachino/sillytavern-extras
     build:
       context: ../
       dockerfile: docker/Dockerfile
